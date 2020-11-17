@@ -193,7 +193,8 @@ nav {
 .sub-nav__user-details {
   display: flex;
   align-items: center;
-  padding-left: 2.5rem;
+  justify-content: flex-end;
+  padding-right: 2.5rem;
   width: 25%;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
@@ -261,18 +262,17 @@ nav {
 }
 
 .user-details-ctn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   width: 25%;
   height: 100%;
 }
 
 .user-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: left;
   padding: 0 1.5rem;
   width: auto;
-  margin: auto;
   margin-top: -1.5rem;
 }
 
@@ -516,6 +516,9 @@ hr {
   }
 
   .user-details-ctn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 2rem;
     width: 100%;
     margin-top: 2rem;
