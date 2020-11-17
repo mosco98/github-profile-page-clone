@@ -450,6 +450,13 @@ hr {
 
 /* Media Queries */
 
+@media screen and (max-width: 1280px) {
+  .sub-nav__user-details {
+    justify-content: flex-start;
+    padding-left: 2.5rem;
+  }
+}
+
 @media screen and (max-width: 1110px) {
   .user-avatar-ctn {
     width: 220px;
