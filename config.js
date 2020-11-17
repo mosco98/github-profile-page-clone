@@ -1,4 +1,4 @@
 const config = {
-  TOKEN: 'fa051b32e343a305d97014123d4f01784284def4',
+  TOKEN: 'ce686a7e3fc17e7b7b328c9817eaa88b32cbd685',
   USERNAME: 'mosco98'
 }
