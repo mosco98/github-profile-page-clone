@@ -25,11 +25,11 @@ window.addEventListener('scroll', () => {
 })
 
 // Getting github user details
-const config = {
-  TOKEN: '412b0f91021d61737473a1e421afd799331cf64d',
-  USERNAME: 'mosco98'
-}
-
+// const config = {
+//   TOKEN: 'fa051b32e343a305d97014123d4f01784284def4',
+//   USERNAME: 'mosco98'
+// }
+// console.log(config)
 const baseURL = 'https://api.github.com/graphql'
 
 const body = {
