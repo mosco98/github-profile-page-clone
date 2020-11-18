@@ -27,7 +27,7 @@ window.addEventListener('scroll', () => {
 // Getting github user details
 
 const config = {
-  TOKEN: '3ed390bdf22ea18f8f5f02cb3e13fef4734e29a4',
+  TOKEN: 'f6f3dc0773f21de99af92c86fa0442dabbd37052',
   USERNAME: 'mosco98'
 }
 
@@ -65,12 +65,13 @@ const params = {
   method: 'POST',
   headers: {
     'Content-type': 'application/json',
-    Authorization: `bearer ${config.TOKEN}`
+    Authorization: `token ${config.TOKEN}`
   },
   body: JSON.stringify(body)
 }
 
 async function getUserDetails(params) {
+  console.log('Fetching...')
   try {
     const response = await fetch(baseURL, params)
     const data = await response.json()
@@ -215,4 +216,4 @@ async function getUserDetails(params) {
   }
 }
 
-getUserDetails(params)
+window.onload = getUserDetails(params)
