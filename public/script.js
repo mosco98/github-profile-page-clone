@@ -27,7 +27,7 @@ window.addEventListener('scroll', () => {
 // Getting github user details
 
 const config = {
-  TOKEN: 'f6f3dc0773f21de99af92c86fa0442dabbd37052',
+  TOKEN: '021c58aca7613f9516edc15b89ece4f31f41ca62',
   USERNAME: 'mosco98'
 }
 
